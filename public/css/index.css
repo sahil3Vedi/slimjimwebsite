@@ -1,0 +1,77 @@
+@font-face {
+}
+
+/*Navbar CSS*/
+.bg-cardboard{
+  background-image: url('../img/textures/cardboard.jpg');
+  background-size: cover;
+}
+
+.navbar-brand-logo{
+  width: 150px;
+  height: auto;
+}
+
+.nav-link{
+  font-family: Oswald;
+  color: black!important;
+  opacity: 1;
+}
+.nav-link:hover{
+  border-bottom: 2px solid #45c34a!important;
+}
+
+.text-white{
+  color:white!important;
+  font-family: Helvetica;
+  opacity: 0.8;
+}
+.text-white:hover{
+  opacity: 1!important;
+  border-bottom: none!important;
+}
+
+.bg-green{
+  background-color: #45c34a;
+}
+
+.width-wide{
+  width: 420px!important;
+  background-color: #ccfdce;
+  color:black;
+  border: 1px solid white;
+}
+
+
+.btn-top{
+  border:none!important;
+}
+
+
+/*CAROUSEL MAIN SECTION*/
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/products/tapestry/tapestry.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview-product{
+  width: 100%;
+}
+
+.pd-0{
+  padding: 15px!important;
+}
+
+#king-paper-input{
+  width: 60px!important;
+}
