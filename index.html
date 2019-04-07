@@ -16,6 +16,8 @@
 
   <link href="public/css/index.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:400">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 
 </head>
 
@@ -122,31 +124,76 @@
   <div class="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="preview-main-product">
             <img src="public/img/products/papers/slimjim1.png" alt="" class="preview-product">
-            <div class="row">
+            <div class="row" id="main-page-preview">
               <div class="col-lg-4 col-sm-4 pd-0">
-                <img src="public/img/products/papers/slimjim1.png" alt="" class="preview-product">
+                <img src="public/img/products/papers/slimjim1.png" alt="" class="preview-product-side" id="current">
               </div>
               <div class="col-lg-4 col-sm-4 pd-0">
-                <img src="public/img/products/papers/slimjim1.png" alt="" class="preview-product">
+                <img src="public/img/products/papers/slimjim2.png" alt="" class="preview-product-side">
               </div>
               <div class="col-lg-4 col-sm-4 pd-0">
-                <img src="public/img/products/papers/slimjim1.png" alt="" class="preview-product">
+                <img src="public/img/products/papers/slimjim3.png" alt="" class="preview-product-side">
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h1 class="mt-5">SLIMJIM HEMP SKINS (KING SIZE)</h1>
+          <h1 class="mt-5">SLIMJIM HEMP SKINS <br>(KING SIZE)</h1>
           <p class="lead">Brand new from the Slimjim Stables, are the Hemp king size skins. Made from pure hemp paper coupled with organic hemp gum this premium offering is slow burning and perfect for back flips
           <br>32 King Size skins in each packet
           <br>Get 1 King Size Skin packet with this purchase</p>
-          <ul class="list-unstyled">
-            <li>RS 99</li>
-            <li><input class="form-control" type="number" value="1" min="1" max="5" id="king-paper-input"></li>
-          </ul>
+          <div class="product-spacer-main">
+          </div>
+          <div class="row bottom-main-row">
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-4 pricing">
+                  <p class="mt-1">INR 99<small><small>00</small></small></p>
+                </div>
+                <div class="col-sm-4 pricing">
+                  <p class="mt-1 ml-auto" id="qty">Qty:</p>
+                </div>
+                <div class="col-sm-4 inputdiv">
+                  <input class="mt-1 form-control mr-auto" type="number" value="1" min="1" max="5" id="king-paper-input">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-2">
+                  <button type="button" class="btn btn-scroll">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="col-sm-3">
+                  <p class="scrollnumber text-center mt-1 text-green">
+                    7
+                  </p>
+                </div>
+                <div class="col-sm-2">
+                  <p class="scrollnumber text-center mt-1">
+                    of
+                  </p>
+                </div>
+                <div class="col-sm-3">
+                  <p class="scrollnumber text-center mt-1 text-green">
+                    11
+                  </p>
+                </div>
+                <div class="col-sm-2">
+                  <button type="button" class="btn btn-scroll">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-spacer-submain">
+          </div>
+          <button type="button" class="btn btn-success">Add To Cart</button>
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@
 
 .nav-link{
   font-family: Oswald;
+  font-size: 17px;
   color: black!important;
   opacity: 1;
 }
@@ -52,7 +53,8 @@
 
 .parallax {
   /* The image used */
-  background-image: url("../img/products/tapestry/tapestry.jpg");
+  /*background-image: url("../img/products/tapestry/tapestry.jpg");*/
+  background-color: white;
 
   /* Set a specific height */
   height: 100vh;
@@ -65,13 +67,98 @@
 }
 
 .preview-product{
-  width: 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2vh;
+  border: 0px solid gray;
+  border-radius: 8px;
+}
+
+.preview-product-side{
+  width: 80%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0px!important;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#current{
+  border: 2px solid #45c34a !important;
 }
 
 .pd-0{
-  padding: 15px!important;
+  padding: 0px!important;
 }
 
 #king-paper-input{
   width: 60px!important;
+  background-color: transparent;
+  border: 0px;
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.pricing{
+  vertical-align: middle!important;
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  padding: 0;
+}
+
+.btn-scroll{
+  border:0px;
+  background-color: #45c34a;
+  color: white;
+}
+
+.product-spacer-main{
+  height: 40px;
+  width: 100%;
+}
+
+.product-spacer-submain{
+  height: 20px;
+  width: 100%;
+}
+
+#main-page-preview{
+  width: 60%!important;
+  margin-left: 20%;
+  margin-top: 2vh;
+}
+
+#qty{
+  width: 50px;
+  margin-right: 5px;
+}
+
+.inputdiv{
+  padding: 0;
+}
+
+.scrollnumber{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.text-green{
+  color: #45c34a;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translate(0,-2px);
+}
+
+.btn-success{
+  color: #45c34a;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  margin-left: 50%;
+  transform: translate(-50%,0);
 }
